@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +10,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #D5E1EF;
     --foreground: #ededed;
   }
 }
@@ -24,4 +25,26 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.roundedBox {
+  width: 320px;
+  height: 499px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.QRImage {
+  border-radius: 20px;
+}
+
+.backgroundStripe {
+  width: 240px;
+  height: 240px;
+  background-color: #fff;
+  background-image: linear-gradient(90deg, transparent 50%, #000 50%);
+  background-size: 60px 60px;
+  background-repeat: repeat;
 }
